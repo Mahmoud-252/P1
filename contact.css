@@ -1,0 +1,12 @@
+.contact input{
+    width: 98%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.contact #submit{
+    background-color: black;
+    color: white;
+    width: 150px;
+    margin-bottom: 20px;
+}

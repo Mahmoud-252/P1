@@ -1,0 +1,27 @@
+header {
+    width:100%;
+    height: 100vh;
+    position: relative;
+    z-index:1;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+}
+
+header h1 {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    font-family: "Segoe UI",Arial,sans-serif;
+    
+}
+
+.myspan {
+    background-color: rgba(0, 0, 0, 0.633);
+    padding: 10px;
+    color:#fff;
+}

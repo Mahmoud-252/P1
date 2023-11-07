@@ -1,0 +1,72 @@
+.project {
+    width:100%;
+    height:100vh;
+
+}
+
+.project .photos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project h2 {
+    
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 35px  15px;
+    padding: 20px 0px;
+    
+}
+
+.project .photo {
+    width:22.5%;
+    height: 234px;
+    position:relative ;
+}
+
+.project .photos .photo img {
+    width:100%;
+    height:100%;
+}
+
+.project p {
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #000;
+    color:white;
+    padding: 10px;
+    z-index: 10;
+}
+
+.project div{
+    margin-bottom: 20px;
+}
+
+/* Smartphones (portrait) */
+@media only screen and (max-width: 320px) {
+    .project .photos{
+        justify-content: center;
+    }
+
+    .project .photo{
+        width: 90%;
+    }
+}
+  
+/* iPads (portrait and landscape)  */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .project .photos{
+        justify-content: center;
+    }
+
+    .project .photo{
+        width: 48%;
+    }
+    
+    .project div{
+        margin-left: 8px;
+    }
+}
+  
